@@ -1,0 +1,35 @@
+body {
+    /* background-color: rgb(240, 236, 230); */
+}
+
+.container {
+    display: block;
+    width: 75%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 4vmax 8vmax;
+    /* background-color: rgba(224, 238, 218, 0.534); */
+    background-color: rgba(206, 145, 88, 0.253);
+}
+
+.container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > input, textArea, button {
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+button {
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(105, 26, 209, 0.733);
+    color: white;
+    padding: 4px;
+}
+
+.tInp {
+    padding: 10px;
+}

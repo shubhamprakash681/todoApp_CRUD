@@ -1,0 +1,35 @@
+.task {
+    padding: 15px;
+    border: 4px solid rgba(0, 0, 0, 0.219);
+    display: block;
+    flex-direction: column;
+    margin-top: 50px;
+    min-height: 80px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.task > span {
+    /* border: 1px solid black; */
+    display: flex;
+    height: 35px;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: center;
+}
+.ts {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    min-height: 60px;
+}
+
+.tBtn {
+    border-radius: 20px;
+    width:30px;
+    margin: auto;
+    margin-right: 0;
+}
+.tBtn:hover {
+    background-color: red;
+    border: none;
+}

@@ -1,0 +1,8 @@
+footer {
+    display: block;
+    margin: auto;
+    padding: 70px;
+    height: 200px;
+    color: whitesmoke;
+    background-color: rgba(30, 30, 30);
+}

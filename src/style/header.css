@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(105, 26, 209, 0.733);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.header {
+    background-color: aliceblue;
+    display: inline-block;
+    /* border: 2px solid red; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.363);
+    min-height: 45px;
+}
+
+.header > a {
+    text-decoration: none;
+    margin: 4px;
+    padding: 3px;
+}
